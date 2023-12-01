@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">10thWeek</string>
+    <string-array name="week_labels">
+        <item name="monday">M</item>
+        <item name="tuesday">T</item>
+        <item name="wendesday">W</item>
+        <item name="thursday">T</item>
+        <item name="friday">F</item>
+        <item name="saturday">S</item>
+        <item name="sunday">S</item>
+    </string-array>
+    <string-array name="week_label">
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+        <item>S</item>
+    </string-array>
+</resources>

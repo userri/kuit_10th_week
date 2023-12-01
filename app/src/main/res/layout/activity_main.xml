@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/material_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:mcv_weekDayLabels="@array/week_label"
+        app:mcv_selectionMode="range"
+        app:mcv_weekDayTextAppearance="@style/calendarWeekText"
+        app:mcv_dateTextAppearance="@style/calendarDateText"
+        app:mcv_headerTextAppearance="@style/calendarHeaderText"
+        app:mcv_rightArrow="@drawable/baseline_align_horizontal_right_24"
+        app:mcv_leftArrow="@drawable/baseline_align_horizontal_left_24"
+        app:mcv_tileHeight="@dimen/title_height"
+         />
+
+<!--    <CalendarView-->
+<!--        android:id="@+id/calendar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:weekDayTextAppearance="@style/calendarWeekText"-->
+<!--        android:dateTextAppearance="@style/calendarDateText"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
